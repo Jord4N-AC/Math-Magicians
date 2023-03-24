@@ -1,8 +1,9 @@
 import InputScreen from './InputScreen';
 import Buttons from './Buttons';
+import '../assets/Calculator.css';
 
 const Calculator = () => (
-  <div>
+  <div id="my-calculator">
     <InputScreen />
     <Buttons />
   </div>
