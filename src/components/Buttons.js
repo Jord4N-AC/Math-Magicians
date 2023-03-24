@@ -1,23 +1,15 @@
+import { calcButtons, calcButtonsTitle } from '../logic/variables';
+import handleClassName from '../logic/handle-button-class-name';
 import Button from './Button';
-
-const calcButtons = [
-  'AC', '+/-', '%', '÷', '7', '8', '9', 'x', '4',
-  '5', '6', '-', '1', '2', '3', '+', '0', '.', '=',
-];
-
-const calcButtonsTitle = [
-  'All Clear (clears all values on screen)',
-  'changes sign of a number, ie: 5 = -5 or -5 = 5, useful for calculations with negative numbers',
-  'calculates percentages ei: 2% = 0.02',
-  '÷', '7', '8', '9', 'x', '4', '5', '6', '-', '1', '2', '3', '+', '0',
-  '. (decimal separator)', '=',
-];
+import '../assets/Buttons.css';
 
 const Buttons = () => (
   <div>
     {
       calcButtons.map((button, i) => (
-        <Button key={button} title={calcButtonsTitle[i]} content={button} />))
+        // eslint-disable-next-line max-len
+        <Button key={button} className={handleClassName(button)} title={calcButtonsTitle[i]} content={button} />
+      ))
     }
   </div>
 );
