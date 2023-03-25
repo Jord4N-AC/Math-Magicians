@@ -3,7 +3,7 @@ button {
   width: 25%;
   min-width: min-content;
   height: 50px;
-  border: 1px solid #00000066;
+  border: 1px solid #0006;
   box-shadow: 0 0 10px rgba(71, 71, 71, 0.854) inset;
 }
 
