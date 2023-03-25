@@ -1,7 +1,6 @@
 import { calcButtons, calcButtonsTitle } from '../logic/variables';
 import handleClassName from '../logic/handle-button-class-name';
 import Button from './Button';
-import '../assets/Buttons.css';
 
 const Buttons = () => (
   <div>
