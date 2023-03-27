@@ -90,7 +90,7 @@ After you're finished please remove all the comments and instructions!
 - **[Perform simple Math calculations]**
 - **[Display a random quote]**
 - **[Single Page App (SPA)]**
-- **[Use `create-react-app`]**
+- **[Created with `React` and main features]**
 - **[Gitflow]**
 - **[Linters]**
 
@@ -183,7 +183,6 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Calculator layout with React Components]**
 - [ ] **[Functional Calculator with React Events, life cycle methods]**
 - [ ] **[Connect to API with React Hooks]**
 - [ ] **[Improve Styles and Funtionality]**
